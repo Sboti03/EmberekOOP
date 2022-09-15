@@ -1,5 +1,7 @@
 package hu.botond.emberekoop.ember;
 
+import java.util.Calendar;
+
 public class Ember {
 
     private String nev;
@@ -12,12 +14,28 @@ public class Ember {
         this.szulHely = szulHely;
     }
 
+    public int yearOfBirth() {
+        String year = szulDatum.split("-")[0];
+        return Integer.parseInt(year);
+    }
+
+    public int monthOfBirth() {
+        String month = szulDatum.split("-")[1];
+        return Integer.parseInt(month);
+    }
+
+    public int dayOfBirth() {
+        String day = szulDatum.split("-")[2];
+        return Integer.parseInt(day);
+    }
+
+    public int getAge() {
+        return Calendar.getInstance().get(Calendar.YEAR) - yearOfBirth();
+    }
+
+
     @Override
     public String toString() {
-        return "Ember{" +
-                "nev='" + nev + '\'' +
-                ", szulDatum='" + szulDatum + '\'' +
-                ", szulHely='" + szulHely + '\'' +
-                '}';
+        return "Ember:\n" + "Név: " + nev + "\nSzületési hely: " + szulHely + "\nSzületési idő: " + szulDatum;
     }
 }
