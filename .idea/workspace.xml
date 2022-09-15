@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a4759adf-79f2-4e0d-a8dc-81726ca3a0fa" name="Changes" comment="Emberek+">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emberek.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/botond/emberekoop/emberek.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/botond/emberekoop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/botond/emberekoop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/botond/emberekoop/filemanagement/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/botond/emberekoop/filemanagement/FileReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,11 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Petrik\AMAF_Java\EmberekOOP\src\hu\botond\emberekoop" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.botond.emberekoop.Main" />
@@ -64,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663226422122</updated>
-      <workItem from="1663226423270" duration="3352000" />
+      <workItem from="1663226423270" duration="4236000" />
     </task>
     <task id="LOCAL-00001" summary="Create">
       <created>1663226433579</created>
@@ -94,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663230731138</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Emberek+">
+      <created>1663230898629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663230898629</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Emberek+">
+      <created>1663230910406</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663230910406</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
